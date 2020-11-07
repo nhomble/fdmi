@@ -2,7 +2,7 @@ name: Update Feeds
 
 on:
   schedule:
-    - cron: "*/60 * * * *"
+    - cron: "30 2 * * *"
   push:
     branches: [ master ]
   pull_request:
