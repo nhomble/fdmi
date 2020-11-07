@@ -15,6 +15,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: textbook/git-checkout-submodule-action@master
+      - name: build 
+        run: go build feed-cli/feed.go
         
       - name: create feed input
         run: |
@@ -24,7 +26,7 @@ jobs:
         run: |
           pwd
           ls feed-cli/
-          cat $feeds | go run feed-cli/feed.go > index.html
+          cat $feeds | ./feed-cli/feed > index.html
       - name: update index
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
