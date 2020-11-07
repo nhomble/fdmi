@@ -17,7 +17,7 @@ jobs:
       - run: go get github.com/nhomble/feed-cli
       - name: create index
         run: |
-          cat $feeds | go run github.com/nhomble/feed-cli > index.html
+          cat feeds | go run github.com/nhomble/feed-cli > index.html
           cat index.html
       - name: update index
         uses: stefanzweifel/git-auto-commit-action@v4
