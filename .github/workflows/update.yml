@@ -15,14 +15,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: go get github.com/nhomble/feed-cli
-        
-      - name: create feed input
-        run: |
-          touch feeds
-          echo "http://rss.cnn.com/rss/cnn_topstories.rss" >> feeds
       - name: create index
         run: |
           cat $feeds | go run github.com/nhomble/feed-cli > index.html
+          cat index.html
       - name: update index
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
