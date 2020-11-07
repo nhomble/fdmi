@@ -14,9 +14,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - uses: textbook/git-checkout-submodule-action@master
-      - name: build 
-        run: go build feed-cli/feed.go
+      - name: get cli 
+        run: go get github.com/nhomble/feed-cli
         
       - name: create feed input
         run: |
@@ -24,6 +23,7 @@ jobs:
           echo "http://rss.cnn.com/rss/cnn_topstories.rss" >> feeds
       - name: create index
         run: |
+          ls
           pwd
           ls feed-cli/
           cat $feeds | ./feed-cli/feed > index.html
