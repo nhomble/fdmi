@@ -21,8 +21,6 @@ jobs:
           echo "http://rss.cnn.com/rss/cnn_topstories.rss" >> feeds
       - name: create index
         run: |
-          pwd
-          ls
           ls feed-cli
           cat $feeds | go run feed-cli/feed.go > index.html
       - name: update index
