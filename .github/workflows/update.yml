@@ -22,6 +22,7 @@ jobs:
       - name: create index
         run: |
           ls
+          cat feed-cli
           cat $feeds | go run feed-cli/feed.go > index.html
       - name: update index
         uses: stefanzweifel/git-auto-commit-action@v4
