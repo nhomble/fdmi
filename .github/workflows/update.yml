@@ -13,12 +13,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
-      - run: go get github.com/nhomble/feed-cli
+      # setup
+      - name: checkout
+        uses: actions/checkout@v2
+      - name: get the feed-cli
+        run: go get github.com/nhomble/feed-cli
+      
+      # create
       - name: create index
         run: |
           cat feeds | go run github.com/nhomble/feed-cli > index.html
-          cat index.html
+
+      # update
       - name: update index
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
