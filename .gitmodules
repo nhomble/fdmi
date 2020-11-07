@@ -1,3 +1,0 @@
-[submodule "feed-cli"]
-	path = feed-cli
-	url = https://github.com/nhomble/feed-cli
