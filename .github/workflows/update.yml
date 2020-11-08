@@ -20,7 +20,7 @@ jobs:
       # create
       - name: create index
         run: |
-          cat feeds | go run github.com/nhomble/feed-cli > index.html
+          cat feeds | go run github.com/nhomble/feed-cli -templateOverride index.tpl > index.html
 
       # update
       - name: update index
