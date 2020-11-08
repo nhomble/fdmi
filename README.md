@@ -9,3 +9,6 @@ $ echo "new.feed.rss" >> feeds
 
 #### Dependencies
 The [index.html](./index.html) is rebuilt on a schedule with [feed-cli](https://github.com/nhomble/feed-cli).
+
+#### Inspired by:
+https://github.com/jamesroutley/news.routley.io
