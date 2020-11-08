@@ -1,8 +1,8 @@
-http://rss.cnn.com/rss/cnn_topstories.rss
+http://rss.cnn.com/rss/cnn_topstories.rss daysOld=1 limit=2
 https://blog.cleancoder.com/atom.xml
 https://blog.janestreet.com/feed.xml
 https://blog.aurynn.com/feed.rss
-https://nullprogram.com/feed/
+https://nullprogram.com/feed/ daysOld=30
 http://xkcd.com/atom.xml
 https://blog.codinghorror.com/rss/
 https://spring.io/blog.atom
@@ -10,8 +10,8 @@ https://www.martinfowler.com/feed.atom
 https://engineering.fb.com/feed/
 https://read.acloud.guru/feed
 https://thenewstack.io/feed
-https://dev.to/feed
-https://www.infoworld.com/index.rss
+https://dev.to/feed daysOld=3 limit=3
+https://www.infoworld.com/index.rss daysOld=3 limit=3
 https://hnrss.org/frontpage?points=50
 https://routley.io/posts/index.xml
 https://www.benkuhn.net/index.xml
