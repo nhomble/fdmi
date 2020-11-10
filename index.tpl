@@ -20,8 +20,11 @@
 	<body>
 	    <h1>feed mirror</h1>
 	    <p><a href="https://github.com/nhomble/fdmi">src</a></p>
-		<ul>{{range .Feeds}}
-			<li><a href="{{.Link}}">{{.Article}} :: {{.Org}}</a></li>
+	    {{range .Feeds}}
+	    <h4>{{.Org}}</h4>
+		<ul>{{range .Entries}}
+			<li><a href="{{.Link}}">{{.Article}}</a></li>
 		{{end}}</ul>
+		{{end}}
 	</body>
 </html>
