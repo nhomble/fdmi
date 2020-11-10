@@ -2,7 +2,7 @@ name: Update Feeds
 
 on:
   schedule:
-    - cron: "30 2 * * *"
+    - cron: "0 */12 * * *"
   push:
     branches: [ master ]
 
