@@ -22,7 +22,9 @@ jobs:
       # create
       - name: create index
         run: |
-          cat feeds | go run github.com/nhomble/feed-cli -templateOverride index.tpl > index.html
+          cat feeds | go run github.com/nhomble/feed-cli@v0.1.0 -templateOverride index.tpl > index.html
+        env:
+          GO111MODULE: on          
 
       # update
       - name: update index
