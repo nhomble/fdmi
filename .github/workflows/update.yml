@@ -22,7 +22,7 @@ jobs:
         run: go get github.com/nhomble/feed-cli
       - name: checkout release
         run: |
-          cd $GOPATH/src/github.com/nhomble/feed-cli && git checkout v0.1.0 && cd -
+          cd $GOROOT/src/github.com/nhomble/feed-cli && git checkout v0.1.0 && cd -
       
       # create
       - name: create index
