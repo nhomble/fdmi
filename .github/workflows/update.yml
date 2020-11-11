@@ -20,9 +20,6 @@ jobs:
         uses: actions/checkout@v2
       - name: get the feed-cli
         run: go get github.com/nhomble/feed-cli
-      - name: checkout release
-        run: |
-          cd $GOROOT/src/github.com/nhomble/feed-cli && git checkout v0.1.0 && cd -
       
       # create
       - name: create index
