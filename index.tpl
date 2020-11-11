@@ -23,12 +23,13 @@
     </style>
 	<body>
 	    <h1>feed mirror</h1>
-	    <p><a href="https://github.com/nhomble/fdmi">src</a></p>
+	    <p>{{with .Now}}{{.Format "2006-01-02 3:4:5 pm"}}{{end}}</p>
 	    {{range .Feeds}}
 	    <h4>{{.Org}}</h4>
 		<ul>{{range .Entries}}
 			<li><a href="{{.Link}}">{{.Article}}</a></li>
 		{{end}}</ul>
 		{{end}}
+		<p><a href="https://github.com/nhomble/fdmi">src</a></p>
 	</body>
 </html>
