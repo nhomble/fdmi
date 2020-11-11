@@ -12,6 +12,10 @@ jobs:
 
     steps:
       # setup
+      - name: Set up Go 1.x
+        uses: actions/setup-go@v2
+        with:
+          go-version: ^1.14        
       - name: checkout
         uses: actions/checkout@v2
       - name: get the feed-cli
