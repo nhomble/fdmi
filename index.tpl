@@ -23,7 +23,7 @@
     </style>
 	<body>
 	    <h1>feed mirror</h1>
-	    <p>{{with .Now}}{{.Format "01/02 03:04:05 pm ET"}}{{end}}</p>
+	    <p>{{with .NowIn "America/New_York"}}{{.Format "01/02 03:04:05 pm"}}{{end}}</p>
 	    {{range .Feeds}}
 	    <h4>{{.Org}}</h4>
 		<ul>{{range .Entries}}
