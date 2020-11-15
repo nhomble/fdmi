@@ -4,7 +4,7 @@ https://blog.gruntwork.io/feed
 https://fullstackfeed.com/feed/
 https://blog.janestreet.com/feed.xml
 https://blog.aurynn.com/feed.rss
-https://nullprogram.com/feed/ daysOld=30
+https://nullprogram.com/feed/
 http://xkcd.com/atom.xml
 https://blog.codinghorror.com/rss/
 https://spring.io/blog.atom limit=10
@@ -23,7 +23,7 @@ https://commoncog.com/blog/rss/
 https://scattered-thoughts.net/rss.xml
 https://themargins.substack.com/feed.xml
 https://jvns.ca/atom.xml
-https://joy.recurse.com/feed.atom
+https://joy.recurse.com/feed.atom daysOld=3
 https://danluu.com/atom.xml
 https://blog.veitheller.de/feed.rss
 https://twobithistory.org/feed.xml
