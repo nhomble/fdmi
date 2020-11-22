@@ -1,20 +1,28 @@
+# news
 http://rss.cnn.com/rss/cnn_topstories.rss daysOld=1 limit=2
-http://feeds.feedburner.com/AmazonWebServicesBlog
+
+# fave ppl
 https://chrisrichardson.net/feed.xml
-https://www.mckinsey.com/insights/rss limit=3
-https://blog.cleancoder.com/atom.xml
-https://blog.gruntwork.io/feed
-https://fullstackfeed.com/feed/
-https://blog.janestreet.com/feed.xml
-https://blog.aurynn.com/feed.rss
 https://nullprogram.com/feed/
-http://xkcd.com/atom.xml
-https://blog.codinghorror.com/rss/
+https://www.martinfowler.com/feed.atom
+
 https://spring.io/blog.atom limit=10
+
+# companies
+http://feeds.feedburner.com/AmazonWebServicesBlog
+https://blog.gruntwork.io/feed
+https://blogs.vmware.com/wprss
+https://blog.janestreet.com/feed.xml
 https://technology.riotgames.com/news/feed
 https://blog.coinbase.com/feed
-https://www.martinfowler.com/feed.atom
 https://engineering.fb.com/feed/
+https://www.mckinsey.com/insights/rss limit=3
+
+https://blog.cleancoder.com/atom.xml
+https://fullstackfeed.com/feed/
+https://blog.aurynn.com/feed.rss
+http://xkcd.com/atom.xml
+https://blog.codinghorror.com/rss/
 https://read.acloud.guru/feed
 https://thenewstack.io/feed
 https://dev.to/feed daysOld=1 limit=2
@@ -34,5 +42,4 @@ https://twobithistory.org/feed.xml
 https://rachelbythebay.com/w/atom.xml
 https://research.swtch.com/feed.atom
 https://jessegalef.com/feed/
-https://blogs.vmware.com/wprss
 https://hackernoon.com/feed
