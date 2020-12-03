@@ -6,7 +6,9 @@ https://chrisrichardson.net/feed.xml
 https://nullprogram.com/feed/
 https://www.martinfowler.com/feed.atom
 
+# tech
 https://spring.io/blog.atom limit=10
+https://www.ansible.com/blog/rss.xml
 
 # companies
 http://feeds.feedburner.com/AmazonWebServicesBlog
