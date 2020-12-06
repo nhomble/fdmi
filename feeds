@@ -9,6 +9,7 @@ https://www.martinfowler.com/feed.atom
 # tech
 https://spring.io/blog.atom limit=10
 https://www.ansible.com/blog/rss.xml
+https://blog.spinnaker.io/feed
 
 # companies
 https://harness.io/tag/harness/feed/
