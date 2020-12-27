@@ -1,10 +1,12 @@
 # news
 http://rss.cnn.com/rss/cnn_topstories.rss daysOld=1 limit=2
 
-# fave ppl
+# ppl
 https://chrisrichardson.net/feed.xml
 https://nullprogram.com/feed/
 https://www.martinfowler.com/feed.atom
+https://eli.thegreenplace.net/feeds/all.atom.xml
+https://drewdevault.com/blog/index.xml
 
 # tech
 https://spring.io/blog.atom limit=10
@@ -24,7 +26,6 @@ https://engineering.fb.com/feed/
 https://www.mckinsey.com/insights/rss limit=3
 https://databricks.com/feed
 
-https://drewdevault.com/blog/index.xml
 https://blog.cleancoder.com/atom.xml
 https://fullstackfeed.com/feed/
 https://blog.aurynn.com/feed.rss
