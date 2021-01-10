@@ -31,3 +31,16 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: update feed
+      - name: Login to Docker Hub
+        uses: docker/login-action@v1
+        with:
+          registry: docker.pkg.github.com          
+          username: nhomble
+          password: ${{ secrets.MY_GITHUB_DOCKER_SECRET }}        
+      - name: Send GroupMe notification
+        uses: nhomble/groupme-notify-action
+        id: notify
+        with:
+          group: ${{ secrets.GROUPME_GROUP }}
+          message: 'Checkout the new feeds: https://nhomble.github.io/fdmi/'
+          token: ${{ secrets.GO_GROUPME_API_TOKEN }}
