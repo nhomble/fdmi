@@ -34,15 +34,9 @@ jobs:
   notify:
     runs-on: ubuntu-latest
     needs: update
-    steps:
-      - name: Login to Docker Hub
-        uses: docker/login-action@v1
-        with:
-          registry: docker.pkg.github.com          
-          username: nhomble
-          password: ${{ secrets.MY_GITHUB_DOCKER_SECRET }}        
+    steps:     
       - name: Send GroupMe notification
-        uses: nhomble/groupme-notify-action@v0.1
+        uses: nhomble/groupme-notify-action@v0.1.1
         id: notify
         with:
           group: ${{ secrets.GROUPME_GROUP }}
