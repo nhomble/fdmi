@@ -38,7 +38,7 @@ jobs:
           username: nhomble
           password: ${{ secrets.MY_GITHUB_DOCKER_SECRET }}        
       - name: Send GroupMe notification
-        uses: nhomble/groupme-notify-action
+        uses: nhomble/groupme-notify-action@v0.1
         id: notify
         with:
           group: ${{ secrets.GROUPME_GROUP }}
