@@ -36,9 +36,9 @@ jobs:
     needs: update
     steps:     
       - name: Send GroupMe notification
-        uses: nhomble/groupme-notify-action@v0.3
+        uses: nhomble/groupme-notify-action@v1
         id: notify
         with:
-          group: ${{ secrets.GROUPME_GROUP }}
-          message: 'Checkout the new feeds: https://nhomble.github.io/fdmi/'
+          bot: ${{ secrets.GROUPME_BOT }}
+          message: 'Checkout the new feeds at: https://nhomble.github.io/fdmi/'
           token: ${{ secrets.GO_GROUPME_API_TOKEN }}
