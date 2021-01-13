@@ -22,9 +22,9 @@ jobs:
         run: go get github.com/nhomble/feed-cli
       
       # create
-      - name: create index
+      - name: create site
         run: |
-          cat feeds | go run github.com/nhomble/feed-cli -templateOverride index.tpl > index.html        
+          make clean website
 
       # update
       - name: update index

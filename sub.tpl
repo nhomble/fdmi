@@ -24,9 +24,12 @@
 	<body>
 	    <h1>feed mirror</h1>
 	    <p>{{with .NowIn "America/New_York"}}{{.Format "01/02 03:04:05 pm"}}{{end}}</p>
-        <p><a href="/top.html">top</a></p>
-        <p><a href="/social.html">social</a></p>
-        <p><a href="/general.html">general</a></p>
+	    {{range .Feeds}}
+	    <h4>{{.Org}}</h4>
+		<ul>{{range .Entries}}
+			<li><a href="{{.Link}}">{{.Article}}</a></li>
+		{{end}}</ul>
+		{{end}}
 		<p><a href="https://github.com/nhomble/fdmi">src</a></p>
 	</body>
 </html>

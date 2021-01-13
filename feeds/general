@@ -1,16 +1,5 @@
-# ppl
-https://chrisrichardson.net/feed.xml
-https://nullprogram.com/feed/
-https://www.martinfowler.com/feed.atom
-https://eli.thegreenplace.net/feeds/all.atom.xml
-https://drewdevault.com/blog/index.xml
-
-# tech
-https://spring.io/blog.atom limit=10
 https://www.ansible.com/blog/rss.xml
 https://blog.spinnaker.io/feed
-
-# companies
 https://blog.citigroup.com/atom.xml
 https://harness.io/tag/harness/feed/
 http://feeds.feedburner.com/AmazonWebServicesBlog
@@ -26,13 +15,11 @@ https://databricks.com/feed
 https://blog.cleancoder.com/atom.xml
 https://fullstackfeed.com/feed/
 https://blog.aurynn.com/feed.rss
-https://xkcd.com/atom.xml
 https://blog.codinghorror.com/rss/
 https://read.acloud.guru/feed
 https://thenewstack.io/feed
 https://dev.to/feed daysOld=1 limit=2
 https://www.infoworld.com/index.rss daysOld=1 limit=2
-https://hnrss.org/frontpage?points=50 daysOld=1
 https://routley.io/posts/index.xml
 https://www.benkuhn.net/index.xml
 https://highgrowthengineering.substack.com/feed
@@ -47,5 +34,4 @@ https://twobithistory.org/feed.xml
 https://rachelbythebay.com/w/atom.xml
 https://research.swtch.com/feed.atom
 https://jessegalef.com/feed/
-https://hackernoon.com/feed
 http://evrl.com/feed.xml
