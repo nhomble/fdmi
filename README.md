@@ -1,5 +1,7 @@
 fdmi
 ==
+![Feed Update Status](https://github.com/nhomble/fdmi/workflows/Update%20Feeds/badge.svg)
+
 My own [feed mirror](https://nhomble.github.io/fdmi/). 
 
 #### Updating new feeds
