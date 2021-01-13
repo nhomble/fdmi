@@ -27,6 +27,7 @@
         <p><a href="/fdmi/top.html">top</a></p>
         <p><a href="/fdmi/social.html">social</a></p>
         <p><a href="/fdmi/general.html">general</a></p>
+        <p><a href="/fdmi/papers.html">never gonna read</a></p>
 		<p><a href="https://github.com/nhomble/fdmi">src</a></p>
 	</body>
 </html>
