@@ -1,5 +1,5 @@
 FEED_CLI	=go run github.com/nhomble/feed-cli
-SUB			=-templateOverride sub.tpl
+SUB		=-templateOverride sub.tpl
 INDEX		=-templateOverride index.tpl
 
 general.html:
