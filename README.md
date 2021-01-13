@@ -6,12 +6,12 @@ My own [feed mirror](https://nhomble.github.io/fdmi/).
 
 #### Updating new feeds
 ```bash
-$ echo "new.feed.rss" >> feeds
+$ echo "new.feed.rss" >> feeds/general
 ```
 
 #### Find an old post
 ```bash
-$ git log -G'<search string>' -p -- index.html
+$ git log -G'<search string>' -p -- top.html
 ```
 
 #### Dependencies
