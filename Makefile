@@ -3,17 +3,17 @@ SUB			=-templateOverride sub.tpl
 INDEX		=-templateOverride index.tpl
 
 general.html:
-	cat feeds/general | $FEED_CLI $SUB > $@
+	cat feeds/general | $(FEED_CLI) $(SUB) > $@
 
 social.html:
-	cat feeds/social | $FEED_CLI $SUB > $@
+	cat feeds/social | $(FEED_CLI) $(SUB) > $@
 
 top.html:
-	cat feeds/top | $FEED_CLI $SUB > $@
+	cat feeds/top | $(FEED_CLI) $(SUB) > $@
 
 index.html: general.html social.html top.html
 	# kinda hack with the current cli, we'll just timeout against nothing
-	echo "" | $FEED_CLI $INDEX > $@
+	echo "" | $(FEED_CLI) $(INDEX) > $@
 
 website: index.html
 
