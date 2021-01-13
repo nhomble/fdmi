@@ -13,7 +13,7 @@ top.html:
 
 index.html: general.html social.html top.html
 	# kinda hack with the current cli, we'll just timeout against nothing
-	echo "" | $FEED_CLI $INDEX > index.html
+	echo "" | $FEED_CLI $INDEX > $@
 
 website: index.html
 
