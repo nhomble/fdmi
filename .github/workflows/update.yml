@@ -23,6 +23,9 @@ jobs:
       
       # create
       - name: create site
+        env:
+          TWITTER_CONSUMER_KEY: ${{ secrets.TWITTER_API_KEY }}
+          TWITTER_CONSUMER_SECRET: ${{ secrets.TWITTER_API_KEY_SECRET }}
         run: |
           make clean website
 
