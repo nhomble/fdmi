@@ -14,7 +14,10 @@ top.html:
 papers.html:
 	cat feeds/papers | $(FEED_CLI) $(SUB) > $@
 
-index.html: general.html social.html top.html papers.html
+twitter.html:
+	cat feeds/twitter | $(FEED_CLI) $(SUB) > $@
+
+index.html: general.html social.html top.html papers.html twitter.html
 	# kinda hack with the current cli, we'll just timeout against nothing
 	echo "" | $(FEED_CLI) $(INDEX) > $@
 
