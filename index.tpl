@@ -24,11 +24,11 @@
 	<body>
 	    <h1>feed mirror</h1>
 	    <p>{{with .NowIn "America/New_York"}}{{.Format "01/02 03:04:05 pm"}}{{end}}</p>
-        <p><a href="/fdmi/top.html">top</a></p>
-        <p><a href="/fdmi/social.html">social</a></p>
-        <p><a href="/fdmi/general.html">general</a></p>
-        <p><a href="/fdmi/papers.html">never gonna read</a></p>
-        <p><a href="/fdmi/twitter.html">tweets</a></p>
+        <p><a href="/top.html">top</a></p>
+        <p><a href="/social.html">social</a></p>
+        <p><a href="/general.html">general</a></p>
+        <p><a href="/papers.html">never gonna read</a></p>
+        <p><a href="/twitter.html">tweets</a></p>
 		<p><a href="https://github.com/nhomble/fdmi">src</a></p>
 	</body>
 </html>
