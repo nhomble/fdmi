@@ -39,7 +39,7 @@ jobs:
     needs: update
     steps:     
       - name: Send GroupMe notification
-        uses: nhomble/groupme-notify-action@v1.1
+        uses: nhomble/groupme-notify-action@v1.2
         id: notify
         with:
           bot: ${{ secrets.GROUPME_BOT }}
