@@ -41,3 +41,6 @@ https://rachelbythebay.com/w/atom.xml
 https://research.swtch.com/feed.atom
 https://jessegalef.com/feed/
 http://evrl.com/feed.xml
+
+https://spring.io/blog.atom limit=10
+https://feeds.feedblitz.com/baeldung&x=1
