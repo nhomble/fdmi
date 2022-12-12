@@ -18,8 +18,8 @@ jobs:
           go-version: 1.18        
       - name: checkout
         uses: actions/checkout@v2
-      - name: get the feed-cli
-        run: go install github.com/nhomble/feed-cli@latest
+      - name: get the things
+        run: go get
       
       # create
       - name: create site
