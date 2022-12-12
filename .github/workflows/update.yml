@@ -19,7 +19,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@v2
       - name: get the feed-cli
-        run: go get github.com/nhomble/feed-cli
+        run: go install github.com/nhomble/feed-cli@latest
       
       # create
       - name: create site
