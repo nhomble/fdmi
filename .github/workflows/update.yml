@@ -18,8 +18,6 @@ jobs:
           go-version: 1.18        
       - name: checkout
         uses: actions/checkout@v2
-      - name: get the things
-        run: go get
       
       # create
       - name: create site
