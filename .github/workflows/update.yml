@@ -5,7 +5,7 @@ on:
     - cron: "0 0 */2 * *"
   push:
     branches: [ master ]
-
+  workflow_dispatch:
 jobs:
   update:
     runs-on: ubuntu-latest
