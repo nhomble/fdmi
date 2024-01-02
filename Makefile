@@ -1,4 +1,4 @@
-FEED_CLI	=go run github.com/nhomble/feed-cli -numWorkers 1
+FEED_CLI	=go run github.com/nhomble/feed-cli@v0.3.0 -numWorkers 1
 SUB		    =-templateOverride sub.tpl
 INDEX		=-templateOverride index.tpl
 
