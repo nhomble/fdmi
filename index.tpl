@@ -28,7 +28,6 @@
         <p><a href="/social.html">social</a></p>
         <p><a href="/general.html">general</a></p>
         <p><a href="/papers.html">never gonna read</a></p>
-        <p><a href="/twitter.html">tweets</a></p>
-		<p><a href="https://github.com/nhomble/fdmi">src</a></p>
+	<p><a href="https://github.com/nhomble/fdmi">src</a></p>
 	</body>
 </html>
