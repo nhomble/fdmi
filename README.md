@@ -1,5 +1,12 @@
 fdmi
 ==
+
+# !! Disabled
+
+I have moved my rss feeds to [obsidian](https://obsidian.md/), so I don't need this anymore.
+
+---
+
 ![Feed Update Status](https://github.com/nhomble/fdmi/workflows/Update%20Feeds/badge.svg)
 
 My own [feed mirror](https://nhomble.github.io/fdmi/). 
